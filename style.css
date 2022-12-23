@@ -1,0 +1,63 @@
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background: #333 url('img.jpg') center no-repeat;
+    background-size: cover;
+	background-attachment: fixed;  
+    color: #fff;
+    font-weight: 400;
+}
+
+#container {
+    width: 400px;
+    margin: 40px auto 0;
+    padding: 50px;
+    background: url('https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png') top left repeat;
+    box-shadow: 0 10px 25px 5px #000;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #ddd;
+}
+
+input[type="number"] {
+	width: 100%;
+	max-width: 80px;
+	text-align: right;
+	background: none;
+	border: none;
+	color: #fff;
+	border-bottom: 2px dashed white;
+}
+
+#form{
+	border-bottom: solid 1px #ddd;
+}
+
+#percentage {
+	-webkit-appearance: none;
+	width: 100%;
+	margin: 2rem 0;
+	height: 12px;
+	background: #66a3ff;
+	border-radius: 10px;
+}
+
+#percentage::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	background: #003380;
+	cursor: pointer;
+	border-radius: 10px;
+}
